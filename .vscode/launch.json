@@ -7,19 +7,6 @@
             "type": "chrome",
             "url": "http://localhost:3000",
             "webRoot": "${workspaceFolder}/public"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Launch Server",
-            "skipFiles": ["<node_internals>/**"],
-            "program": "${workspaceFolder}/server.js"
-        }
-    ],
-    "compounds": [
-        {
-            "name": "Launch Server and Chrome",
-            "configurations": ["Launch Server", "Launch Chrome"]
         }
     ]
 }
