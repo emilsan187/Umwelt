@@ -1,0 +1,229 @@
+@keyframes jumpInOut {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Allgemeine Stile */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Helles Blau für einen frischen Look */
+    color: #2e7d32; /* Dunkelgrün für Text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+    background-color: #4CAF50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    background-color: #388e3c;
+    color: white;
+    transform: scale(1.1);
+}
+
+nav a.nav-icon {
+    margin-left: auto;
+    padding: 3px;
+}
+
+nav a.nav-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+nav a.nav-icon:hover {
+    background-color: #388e3c;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    animation: jumpInOut 2s infinite;
+    transition: transform 0.3s ease-in-out;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+    transition: color 0.3s, transform 0.3s;
+}
+
+header h3 {
+    font-size: 1.5em;
+    color: #555;
+    transition: color 0.3s, transform 0.3s;
+}
+
+header:hover {
+    background-color: #e0f7fa;
+    transform: scale(1.05);
+}
+
+header h1:hover, header h3:hover {
+    color: #2e7d32;
+    transform: scale(1.1);
+}
+
+/* Hauptinhalt */
+main {
+    padding: 20px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+main:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+section {
+    margin-bottom: 20px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+section:hover {
+    background-color: #e0f7fa;
+    transform: scale(1.02);
+}
+
+.motivator-section, .motivator-section-end {
+    background-color: #e7f3fe;
+    padding: 20px;
+    border: 1px solid #b3d4fc;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.motivator-section:hover, .motivator-section-end:hover {
+    background-color: #d0e7fc;
+    transform: scale(1.02);
+}
+
+.info-section, .reasons {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.info-section:hover, .reasons:hover {
+    background-color: #e0f7fa;
+    transform: scale(1.02);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+footer:hover {
+    background-color: #388e3c;
+    transform: scale(1.05);
+}
+
+/* Buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #388e3c;
+    transform: scale(1.1);
+}
+
+/* Input-Felder */
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, transform 0.3s;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+    transform: scale(1.02);
+}
+
+/* Karten */
+.card {
+    background-color: white;
+    border: 1px solid #4CAF50;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+.card h2 {
+    color: #2e7d32;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.card p {
+    color: #555;
+    transition: color 0.3s, transform 0.3s;
+}

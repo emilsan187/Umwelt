@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitmachen - Schützt die Umwelt!</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <a href="./index.html">Startseite</a>
+        <a href="./about.html">Über uns</a>
+        <a href="#">Mitmachen</a>
+        <a href="./imprint.html">Impressum</a>
+        <a href="#" class="nav-icon"><img src="./img/planet-erde.png" alt="Icon"></a>
+    </nav>
+    <header>
+        <img src="./img/planet-erde.png" alt="Planet mit grünen Blättern am Rand oben dran.">
+        <h1>Mitmachen</h1>
+        <h3>Werden Sie Teil unserer Bewegung</h3>
+    </header>
+    <main>
+        <section class="card">
+            <h2>Warum mitmachen?</h2>
+            <p>Indem Sie sich uns anschließen, können Sie aktiv dazu beitragen, unsere Umwelt zu schützen und nachhaltige Praktiken zu fördern. Jeder Beitrag zählt und gemeinsam können wir einen großen Unterschied machen.</p>
+        </section>
+        <section class="card">
+            <h2>Wie Sie helfen können</h2>
+            <p>Es gibt viele Möglichkeiten, wie Sie sich engagieren können. Ob durch Freiwilligenarbeit, Spenden oder die Teilnahme an unseren Veranstaltungen – jede Hilfe ist willkommen und wertvoll.</p>
+        </section>
+        <section class="card">
+            <h2>Mitglied werden</h2>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Absenden</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Ulmwelt.de</p>
+    </footer>
+</body>
+</html>
