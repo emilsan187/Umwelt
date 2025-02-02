@@ -91,11 +91,6 @@ header h3 {
     transition: color 0.3s, transform 0.3s;
 }
 
-header:hover {
-    background-color: #e0f7fa;
-    transform: scale(1.05);
-}
-
 header h1:hover, header h3:hover {
     color: #2e7d32;
     transform: scale(1.1);
@@ -109,11 +104,6 @@ main {
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s, transform 0.3s;
-}
-
-main:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transform: scale(1.02);
 }
 
 section {
