@@ -123,6 +123,8 @@ section:hover {
     border: 1px solid #b3d4fc;
     border-radius: 10px;
     transition: background-color 0.3s, transform 0.3s;
+    display: flex;
+    flex-direction: row;
 }
 
 .motivator-section:hover, .motivator-section-end:hover {
