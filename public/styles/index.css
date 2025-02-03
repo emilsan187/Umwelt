@@ -225,13 +225,3 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     align-items: stretch;
     flex-direction: row;
 }
-
-.weather-section {
-    background-color: white;
-    border: 3px solid #4CAF50;
-    border-radius: 6px;
-    padding: 20px;
-    margin: 10px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s, transform 0.3s;
-}
