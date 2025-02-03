@@ -127,8 +127,6 @@ section:hover {
     border: 1px solid #b3d4fc;
     border-radius: 10px;
     transition: background-color 0.3s, transform 0.3s;
-    display: flex;
-    flex-direction: row;
 }
 
 .motivator-section:hover, .motivator-section-end:hover {
@@ -223,4 +221,11 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .card p {
     color: #555;
     transition: color 0.3s, transform 0.3s;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
 }
