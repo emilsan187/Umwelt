@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+
 @keyframes jumpInOut {
     0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);
@@ -30,6 +32,7 @@ nav {
     margin: 10px;
     padding: 0 10px;
     flex-wrap: wrap;
+    font-family: 'Playwrite IN';
 }
 
 nav a {
