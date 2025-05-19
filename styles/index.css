@@ -197,6 +197,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     transform: scale(1.02);
 }
 
+a {
+    color: #2e7d32;
+}
+
 /* Karten */
 .card {
     background-color: white;
