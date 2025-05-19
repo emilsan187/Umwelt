@@ -197,7 +197,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     transform: scale(1.02);
 }
 
-.motivator-section-end{
+a {
     color: #2e7d32;
 }
 
